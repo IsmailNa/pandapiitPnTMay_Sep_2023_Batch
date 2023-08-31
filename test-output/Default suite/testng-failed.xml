@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.TestNG_RerunFailedTestCases.RediffLoginTest">
+      <class name="com.automation.DatePicker.Example1">
         <methods>
-          <include name="loginTest"/>
+          <include name="verifyHardCodedDateSelection"/>
         </methods>
-      </class> <!-- com.automation.TestNG_RerunFailedTestCases.RediffLoginTest -->
+      </class> <!-- com.automation.DatePicker.Example1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

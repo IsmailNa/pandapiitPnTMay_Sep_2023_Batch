@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-29T22:25:24 GMT-04:00" name="Default suite" finished-at="2023-08-29T22:25:31 GMT-04:00" duration-ms="7264">
+  <suite started-at="2023-08-30T22:50:53 GMT-04:00" name="Default suite" finished-at="2023-08-30T22:51:06 GMT-04:00" duration-ms="13479">
     <groups>
     </groups>
-    <test started-at="2023-08-29T22:25:24 GMT-04:00" name="Default test" finished-at="2023-08-29T22:25:31 GMT-04:00" duration-ms="7264">
-      <class name="com.automation.ChromeOptions.HeadlessMode">
-        <test-method signature="demoTest()[pri:0, instance:com.automation.ChromeOptions.HeadlessMode@d86a6f]" started-at="2023-08-29T22:25:24 GMT-04:00" name="demoTest" finished-at="2023-08-29T22:25:31 GMT-04:00" duration-ms="7199" status="PASS">
+    <test started-at="2023-08-30T22:50:53 GMT-04:00" name="Default test" finished-at="2023-08-30T22:51:06 GMT-04:00" duration-ms="13479">
+      <class name="com.automation.DatePicker.Example1">
+        <test-method signature="useCustomizeDateMethod()[pri:0, instance:com.automation.DatePicker.Example1@2e385cce]" started-at="2023-08-30T22:50:53 GMT-04:00" name="useCustomizeDateMethod" finished-at="2023-08-30T22:51:06 GMT-04:00" duration-ms="13348" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoTest -->
-      </class> <!-- com.automation.ChromeOptions.HeadlessMode -->
+        </test-method> <!-- useCustomizeDateMethod -->
+      </class> <!-- com.automation.DatePicker.Example1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
