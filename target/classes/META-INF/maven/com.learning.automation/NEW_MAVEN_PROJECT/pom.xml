@@ -22,6 +22,15 @@
 	<dependencies>
 
 		<!--
+		https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+		<dependency>
+			<groupId>com.github.stephenc.monte</groupId>
+			<artifactId>monte-screen-recorder</artifactId>
+			<version>0.7.7.0</version>
+		</dependency>
+
+
+		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -114,9 +123,11 @@
 					<version>3.1.2</version>
 					<configuration>
 						<suiteXmlFiles>
-						<!--	<suiteXmlFile>src/test/resources/SuiteAlltestng.xml</suiteXmlFile> -->
+							<!--
+							<suiteXmlFile>src/test/resources/SuiteAlltestng.xml</suiteXmlFile> -->
 							<!--	<suiteXmlFile>testng.xml</suiteXmlFile> -->
-						<suiteXmlFile>target/surefire-reports/testng-failed.xml</suiteXmlFile> 
+							<suiteXmlFile>
+								target/surefire-reports/testng-failed.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
